@@ -1,0 +1,23 @@
+
+  .app-container-grid {
+    display: grid;
+    /*grid-template-columns: 1fr 6fr 2fr;*/
+    grid-template-rows: 1fr 7fr 1fr;
+    height: 100vh;
+  }
+  /* .main-header, .main-footer {
+    background-color:blue;
+    display: grid;
+    grid-template-columns:1fr 6fr 2fr;
+  } */
+  .main-header, .main-container-grid, .main-footer {
+    /*grid-column: 1 / 4;*/
+  }
+  /* .main-container-grid {
+    display:grid;
+    grid-template-columns:2fr 10fr 3fr;
+  } */
+  /* .align-center{
+      justify-self:center;
+      align-self:center;
+  } */
